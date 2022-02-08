@@ -1,6 +1,6 @@
 ### Hi there 👋
-[![Silence48's GitHub stats](https://github-readme-stats.vercel.app/api?username=silence48&include_all_commits&count_private&theme=shades-of-purple)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=llwslc&theme=shades-of-purple&include_all_commits&count_private&layout=default)](https://github.com/anuraghazra/github-readme-stats)
+[![Silence48's GitHub stats](https://github-readme-stats.vercel.app/api?username=silence48&include_all_commits=true&count_private=true&theme=shades-of-purple)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=llwslc&theme=shades-of-purple&include_all_commits=true&count_private=true&layout=default)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **silence48/silence48** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
