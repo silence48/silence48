@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Silence</title>
+  <desc id="description">Building useful systems in the open with TypeScript, Rust, and Stellar.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0715" />
+      <stop offset="0.52" stop-color="#241044" />
+      <stop offset="1" stop-color="#4c1d95" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#c084fc" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#e9d5ff" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0" />
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24" />
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#ddd6fe" stroke-opacity="0.055" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#background)" />
+  <rect width="1200" height="320" rx="24" fill="url(#grid)" />
+  <circle cx="1000" cy="45" r="250" fill="url(#glow)" filter="url(#blur)" />
+  <circle cx="100" cy="320" r="220" fill="url(#glow)" opacity="0.45" filter="url(#blur)" />
+
+  <g transform="translate(1020 160)" fill="none">
+    <ellipse rx="130" ry="48" transform="rotate(-18)" stroke="url(#orbit)" stroke-width="2" />
+    <ellipse rx="96" ry="96" transform="rotate(28)" stroke="url(#orbit)" stroke-width="1.5" opacity="0.72" />
+    <circle r="31" fill="#ede9fe" fill-opacity="0.1" stroke="#ddd6fe" stroke-opacity="0.62" />
+    <circle r="8" fill="#f5f3ff" />
+    <circle cx="-112" cy="-10" r="6" fill="#c4b5fd" />
+    <circle cx="84" cy="60" r="4" fill="#e9d5ff" />
+  </g>
+
+  <g fill="#f5f3ff">
+    <circle cx="770" cy="67" r="2" opacity="0.85" />
+    <circle cx="842" cy="244" r="2.5" opacity="0.62" />
+    <circle cx="925" cy="73" r="1.5" opacity="0.75" />
+    <circle cx="1115" cy="252" r="2" opacity="0.7" />
+    <path d="M 814 112 l 3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 z" opacity="0.76" />
+    <path d="M 1138 74 l 2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 z" opacity="0.58" />
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="74" y="142" fill="#faf5ff" font-size="72" font-weight="750" letter-spacing="12">SILENCE</text>
+    <rect x="77" y="168" width="92" height="4" rx="2" fill="#a78bfa" />
+    <text x="77" y="211" fill="#ddd6fe" font-size="21" font-weight="600" letter-spacing="3">BUILDING USEFUL SYSTEMS IN THE OPEN</text>
+    <text x="77" y="255" fill="#c4b5fd" font-size="17" letter-spacing="2">TYPESCRIPT  ·  RUST  ·  STELLAR  ·  OPEN SOURCE</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="318" rx="23" fill="none" stroke="#ddd6fe" stroke-opacity="0.16" stroke-width="2" />
+</svg>
