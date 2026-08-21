@@ -22,14 +22,40 @@ I build developer tools, financial infrastructure, and community software—with
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://stellaratlas.io"><strong>Stellar Atlas</strong></a>
+      · <a href="https://github.com/Stellar-Atlas/StellarAtlas">source</a><br />
+      Monitoring and analytics for the Stellar network, validators, and organizations.<br />
+      <sub>TypeScript · APIs · Network analytics</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://hoops.finance"><strong>Hoops Finance</strong></a>
+      · <a href="https://github.com/Hoops-Finance">source</a><br />
+      Stellar DeFi tooling for routing swaps and liquidity across multiple AMMs.<br />
+      <sub>Rust · TypeScript · Soroban</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://github.com/stellar/laboratory"><strong>Stellar Laboratory</strong></a><br />
-      Tools for exploring, testing, and learning the Stellar network.<br />
+      Interactive tooling for building, signing, simulating, and submitting Stellar transactions.<br />
       <sub>TypeScript · Next.js · Stellar</sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/stellar/rs-soroban-sdk"><strong>Rust Soroban SDK</strong></a><br />
-      The Rust SDK for building Soroban smart contracts.<br />
+      The Rust SDK for building smart contracts that run on Stellar.<br />
       <sub>Rust · Soroban · Smart contracts</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/stellar/stellar-protocol"><strong>Stellar Protocol</strong></a><br />
+      The home of Stellar Core Advancement Proposals and Ecosystem Proposals.<br />
+      <sub>CAPs · SEPs · Protocol design</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/stellar/js-stellar-base"><strong>JS Stellar Base</strong></a><br />
+      Low-level JavaScript primitives for reading, writing, hashing, and signing Stellar XDR.<br />
+      <sub>JavaScript · XDR · Cryptography</sub>
     </td>
   </tr>
   <tr>
@@ -65,9 +91,9 @@ I build developer tools, financial infrastructure, and community software—with
   <tr>
     <td width="58%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=silence48&show_icons=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_border=true&theme=shades-of-purple" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=silence48&show_icons=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_border=true&theme=buefy" />
-        <img alt="Silence's GitHub statistics" src="https://github-stats-extended.vercel.app/api?username=silence48&show_icons=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_border=true&theme=shades-of-purple" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=silence48&show_icons=true&include_all_commits=true&hide=contribs&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_border=true&theme=shades-of-purple" />
+        <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=silence48&show_icons=true&include_all_commits=true&hide=contribs&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_border=true&theme=buefy" />
+        <img alt="Silence's GitHub statistics" src="https://github-stats-extended.vercel.app/api?username=silence48&show_icons=true&include_all_commits=true&hide=contribs&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_border=true&theme=shades-of-purple" />
       </picture>
     </td>
     <td width="42%" valign="top">
@@ -81,7 +107,7 @@ I build developer tools, financial infrastructure, and community software—with
 </table>
 
 <p align="center">
-  <sub>Language cards reflect public repositories, so private work is intentionally not part of that picture.</sub>
+  <sub>Language data reflects public repositories unless private access is explicitly enabled through GitHub Stats Extended.</sub>
 </p>
 
 ---
