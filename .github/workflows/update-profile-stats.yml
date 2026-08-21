@@ -1,0 +1,48 @@
+name: Refresh profile statistics
+
+on:
+  schedule:
+    - cron: "23 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+
+      - name: Generate the contribution card
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_USERNAME: silence48
+        run: node scripts/generate-profile-stats.mjs
+
+      - name: Publish a changed card through GitHub's API
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          if git diff --quiet -- assets/contribution-stats.svg; then
+            echo "Contribution card is already current."
+            exit 0
+          fi
+
+          content="$(base64 -w 0 assets/contribution-stats.svg)"
+          current_sha="$(gh api "repos/${GITHUB_REPOSITORY}/contents/assets/contribution-stats.svg?ref=main" --jq .sha)"
+
+          gh api \
+            --method PUT \
+            "repos/${GITHUB_REPOSITORY}/contents/assets/contribution-stats.svg" \
+            -f message="chore: refresh profile statistics" \
+            -f content="$content" \
+            -f sha="$current_sha" \
+            -f branch="main" \
+            >/dev/null

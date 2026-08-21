@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title description">
+  <title id="title">silence48 contribution pulse</title>
+  <desc id="description">2,390 GitHub contributions in the last twelve months, including 1,755 private contributions. Public activity is grouped by repository owner without publishing private repository names.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0715" />
+      <stop offset="0.55" stop-color="#21103d" />
+      <stop offset="1" stop-color="#3b176f" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6" />
+      <stop offset="1" stop-color="#d8b4fe" />
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28" />
+    </filter>
+    <style>
+      text { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .eyebrow { fill: #c4b5fd; font-size: 14px; font-weight: 700; letter-spacing: 2.4px; }
+      .muted { fill: #a99fc0; font-size: 14px; }
+      .metric { fill: #faf5ff; font-size: 23px; font-weight: 720; }
+      .metric-label { fill: #b8afc9; font-size: 13px; }
+      .owner { fill: #f5f3ff; font-size: 16px; font-weight: 650; }
+      .owner-detail { fill: #aaa0bd; font-size: 12px; }
+    </style>
+  </defs>
+  <rect width="1200" height="500" rx="24" fill="url(#background)" />
+  <circle cx="1110" cy="24" r="210" fill="#7c3aed" fill-opacity="0.18" filter="url(#glow)" />
+  <circle cx="62" cy="470" r="160" fill="#9333ea" fill-opacity="0.12" filter="url(#glow)" />
+  <rect x="1" y="1" width="1198" height="498" rx="23" fill="none" stroke="#ddd6fe" stroke-opacity="0.15" stroke-width="2" />
+
+  <text x="52" y="54" class="eyebrow">CONTRIBUTION PULSE · LAST 12 MONTHS</text>
+  <text x="1148" y="54" text-anchor="end" class="muted">Updated 2026-08-21</text>
+
+  <rect x="52" y="84" width="410" height="354" rx="18" fill="#120a22" fill-opacity="0.72" stroke="#c4b5fd" stroke-opacity="0.12" />
+  <text x="80" y="168" fill="#faf5ff" font-size="62" font-weight="760">2,390</text>
+  <text x="82" y="197" fill="#c4b5fd" font-size="17">contributions across public and private work</text>
+
+  <g transform="translate(80 238)">
+    <text class="metric">1,755</text>
+    <text y="23" class="metric-label">private contributions</text>
+  </g>
+  <g transform="translate(267 238)">
+    <text class="metric">635</text>
+    <text y="23" class="metric-label">public contributions</text>
+  </g>
+  <g transform="translate(80 314)">
+    <text class="metric">96</text>
+    <text y="23" class="metric-label">active days</text>
+  </g>
+  <g transform="translate(267 314)">
+    <text class="metric">16</text>
+    <text y="23" class="metric-label">longest streak</text>
+  </g>
+
+  <rect x="80" y="382" width="344" height="9" rx="4.5" fill="#3c3150" />
+  <rect x="80" y="382" width="91" height="9" rx="4.5" fill="url(#accent)" />
+  <text x="80" y="415" class="owner-detail">614 public commits · 6 PRs · 1 review · 4 issues</text>
+
+  <rect x="488" y="84" width="660" height="354" rx="18" fill="#120a22" fill-opacity="0.72" stroke="#c4b5fd" stroke-opacity="0.12" />
+  <text x="520" y="121" class="eyebrow">PUBLIC ACTIVITY BY DESTINATION</text>
+  <g transform="translate(520 158)">
+    <circle cx="10" cy="-5" r="10" fill="#8b5cf6" fill-opacity="0.86" />
+    <text x="30" class="owner">Stellar Atlas</text>
+    <text x="596" text-anchor="end" class="owner">613</text>
+    <rect x="30" y="10" width="300" height="5" rx="2.5" fill="#3c3150" />
+    <rect x="30" y="10" width="300" height="5" rx="2.5" fill="url(#accent)" />
+    <text x="348" y="15" class="owner-detail">609 commits · 4 PRs</text>
+  </g>
+<g transform="translate(520 203)">
+    <circle cx="10" cy="-5" r="10" fill="#8b5cf6" fill-opacity="0.77" />
+    <text x="30" class="owner">Other public activity</text>
+    <text x="596" text-anchor="end" class="owner">10</text>
+    <rect x="30" y="10" width="300" height="5" rx="2.5" fill="#3c3150" />
+    <rect x="30" y="10" width="112" height="5" rx="2.5" fill="url(#accent)" />
+    <text x="348" y="15" class="owner-detail">10 other contributions</text>
+  </g>
+<g transform="translate(520 248)">
+    <circle cx="10" cy="-5" r="10" fill="#8b5cf6" fill-opacity="0.68" />
+    <text x="30" class="owner">Personal</text>
+    <text x="596" text-anchor="end" class="owner">6</text>
+    <rect x="30" y="10" width="300" height="5" rx="2.5" fill="#3c3150" />
+    <rect x="30" y="10" width="91" height="5" rx="2.5" fill="url(#accent)" />
+    <text x="348" y="15" class="owner-detail">5 commits · 1 review</text>
+  </g>
+<g transform="translate(520 293)">
+    <circle cx="10" cy="-5" r="10" fill="#8b5cf6" fill-opacity="0.59" />
+    <text x="30" class="owner">Microsoft</text>
+    <text x="596" text-anchor="end" class="owner">4</text>
+    <rect x="30" y="10" width="300" height="5" rx="2.5" fill="#3c3150" />
+    <rect x="30" y="10" width="75" height="5" rx="2.5" fill="url(#accent)" />
+    <text x="348" y="15" class="owner-detail">1 PR · 3 issues</text>
+  </g>
+<g transform="translate(520 338)">
+    <circle cx="10" cy="-5" r="10" fill="#8b5cf6" fill-opacity="0.50" />
+    <text x="30" class="owner">EasyA Tech</text>
+    <text x="596" text-anchor="end" class="owner">1</text>
+    <rect x="30" y="10" width="300" height="5" rx="2.5" fill="#3c3150" />
+    <rect x="30" y="10" width="32" height="5" rx="2.5" fill="url(#accent)" />
+    <text x="348" y="15" class="owner-detail">1 PR</text>
+  </g>
+<g transform="translate(520 383)">
+    <circle cx="10" cy="-5" r="10" fill="#8b5cf6" fill-opacity="0.41" />
+    <text x="30" class="owner">Seerge</text>
+    <text x="596" text-anchor="end" class="owner">1</text>
+    <rect x="30" y="10" width="300" height="5" rx="2.5" fill="#3c3150" />
+    <rect x="30" y="10" width="32" height="5" rx="2.5" fill="url(#accent)" />
+    <text x="348" y="15" class="owner-detail">1 issue</text>
+  </g>
+
+  <text x="52" y="474" class="muted">Generated in silence48/silence48 from GitHub's API · private repository names are never published</text>
+</svg>

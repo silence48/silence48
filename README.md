@@ -22,12 +22,14 @@ I build developer tools, financial infrastructure, and community software—with
 <table>
   <tr>
     <td width="50%" valign="top">
+      <img src="https://github.com/Stellar-Atlas.png?size=96" alt="Stellar Atlas logo" width="48" height="48" align="right" />
       <a href="https://stellaratlas.io"><strong>Stellar Atlas</strong></a>
       · <a href="https://github.com/Stellar-Atlas/StellarAtlas">source</a><br />
       Monitoring and analytics for the Stellar network, validators, and organizations.<br />
       <sub>TypeScript · APIs · Network analytics</sub>
     </td>
     <td width="50%" valign="top">
+      <img src="https://github.com/Hoops-Finance.png?size=96" alt="Hoops Finance logo" width="48" height="48" align="right" />
       <a href="https://hoops.finance"><strong>Hoops Finance</strong></a>
       · <a href="https://github.com/Hoops-Finance">source</a><br />
       Stellar DeFi tooling for routing swaps and liquidity across multiple AMMs.<br />
@@ -36,11 +38,13 @@ I build developer tools, financial infrastructure, and community software—with
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <img src="https://github.com/stellar.png?size=96" alt="Stellar logo" width="48" height="48" align="right" />
       <a href="https://github.com/stellar/laboratory"><strong>Stellar Laboratory</strong></a><br />
       Interactive tooling for building, signing, simulating, and submitting Stellar transactions.<br />
       <sub>TypeScript · Next.js · Stellar</sub>
     </td>
     <td width="50%" valign="top">
+      <img src="https://github.com/stellar.png?size=96" alt="Stellar logo" width="48" height="48" align="right" />
       <a href="https://github.com/stellar/rs-soroban-sdk"><strong>Rust Soroban SDK</strong></a><br />
       The Rust SDK for building smart contracts that run on Stellar.<br />
       <sub>Rust · Soroban · Smart contracts</sub>
@@ -48,11 +52,13 @@ I build developer tools, financial infrastructure, and community software—with
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <img src="https://github.com/stellar.png?size=96" alt="Stellar logo" width="48" height="48" align="right" />
       <a href="https://github.com/stellar/stellar-protocol"><strong>Stellar Protocol</strong></a><br />
       The home of Stellar Core Advancement Proposals and Ecosystem Proposals.<br />
       <sub>CAPs · SEPs · Protocol design</sub>
     </td>
     <td width="50%" valign="top">
+      <img src="https://github.com/stellar.png?size=96" alt="Stellar logo" width="48" height="48" align="right" />
       <a href="https://github.com/stellar/js-stellar-base"><strong>JS Stellar Base</strong></a><br />
       Low-level JavaScript primitives for reading, writing, hashing, and signing Stellar XDR.<br />
       <sub>JavaScript · XDR · Cryptography</sub>
@@ -85,29 +91,14 @@ I build developer tools, financial infrastructure, and community software—with
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 </p>
 
-## GitHub at a glance
-
-<table>
-  <tr>
-    <td width="58%" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=silence48&show_icons=true&include_all_commits=true&hide=contribs&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_border=true&theme=shades-of-purple" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=silence48&show_icons=true&include_all_commits=true&hide=contribs&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_border=true&theme=buefy" />
-        <img alt="Silence's GitHub statistics" src="https://github-stats-extended.vercel.app/api?username=silence48&show_icons=true&include_all_commits=true&hide=contribs&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_border=true&theme=shades-of-purple" />
-      </picture>
-    </td>
-    <td width="42%" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=silence48&langs_count=8&layout=compact&hide_border=true&theme=shades-of-purple" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=silence48&langs_count=8&layout=compact&hide_border=true&theme=buefy" />
-        <img alt="Languages used in Silence's public repositories" src="https://github-stats-extended.vercel.app/api/top-langs/?username=silence48&langs_count=8&layout=compact&hide_border=true&theme=shades-of-purple" />
-      </picture>
-    </td>
-  </tr>
-</table>
+## Contribution pulse
 
 <p align="center">
-  <sub>Language data reflects public repositories unless private access is explicitly enabled through GitHub Stats Extended.</sub>
+  <img src="./assets/contribution-stats.svg" alt="Silence's GitHub contribution statistics for the last twelve months" width="100%" />
+</p>
+
+<p align="center">
+  <sub>Generated weekly in this repository from GitHub's API. Private contributions count toward the total, but private repository names are never published.</sub>
 </p>
 
 ---
